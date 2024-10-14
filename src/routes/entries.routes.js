@@ -18,6 +18,7 @@ eso es todo aqui en routes, lo siguiente es en la carpeta de controllers
 const {
   renderIndex,
   renderLogin,
+  renderObras,
   renderComprar,
   renderNewEntry,
   createNewEntry,
@@ -28,6 +29,8 @@ router.get("/", renderIndex);
 router.get("/login", renderLogin);
 
 router.get("/comprar", renderComprar);
+
+router.get("/obras", renderObras);
 
 router.get("/new-entry", renderNewEntry);
 

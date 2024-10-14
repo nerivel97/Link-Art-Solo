@@ -22,6 +22,10 @@ const renderComprar = (req, res) => {
     res.render('comprar', { currentPage: 'comprar' });
 };
 
+const renderObras = (req, res) => {
+    res.render('obras', { currentPage: 'obras' });
+};
+
 const renderNewEntry = (req, res) => {};
 
 const createNewEntry = (req, res) => {};
@@ -31,5 +35,6 @@ module.exports = {
     renderNewEntry,
     createNewEntry,
     renderLogin,
-    renderComprar
+    renderComprar,
+    renderObras
 };
